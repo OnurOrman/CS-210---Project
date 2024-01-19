@@ -32,9 +32,9 @@ A: The graphs describing distributions, changes over time, and the relations spe
 ### Q: Aside from the correlation matrices, there are two kinds of charts in the Graphs folder. Why?
 A: At first, I have tried to analyze the data on the basis of individual recordings, and I have drawn my charts and plots accordingly. However, as I have progressed in the project, as you can see in the notebook, I have decided that it was not feasible to continue with that approach, and instead, I have switched to grouping the records based on their creation dates, as I have explained in the report. The ones with **"daily"** at the beginning of the filename are the graphs created using the latter approach, while the ones (not the correlation matrices) that do not carry this moniker are generated using the first (kind of failed) approach, but I nevertheless wanted to keep them as an indicator of my progress. Below, you are going to see a comparison between the two approaches. Pay attention to the linear correlation in the second graph, and compare it to the correlation matrices. You can also try to see this with the other graphs in the Graphs folder.
 
-![Alt text](image.png)
+![Alt text](Graphs/rel-step_count-distance.png)
 
-![Alt text](image-1.png)
+![Alt text](Graphs/daily-rel-step_count-distance.png)
 
 ### Q: Correlation matrices? I see that there are four of them. Which one should I look at?
 A: All of them. Literally all of them. See the report for why I had to create four different correlation matrices.
